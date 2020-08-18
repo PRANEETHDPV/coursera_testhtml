@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>module2-solution</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 15px;
+}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+  color: #0000ff;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 36px; 
+  text-transform: uppercase;
+	text-align:  center;
+}
+div#container{
+	position: relative;
+}
+.p {
+  height: auto;
+   color: black;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  font-size: 20px;
+  background-color: grey;
+  padding: 10px;
+  padding-top: 60px;	
+}
+.contentname{
+	overflow: none;
+	text-align: center;
+	border: 4px solid green;
+	width: 100px;
+	height: 40px;
+	padding:5px;
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+	position: relative;
+	font-weight: bold;
+	
+}
+.name1{
+	background-color: yellow;
+}
+.name2{
+	background-color: pink;
+}
+.name3{
+	background-color: orange;
+}
+
+.row {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+   .col-lg-4 {
+    float: left;
+   
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  }
+@media (min-width: 992px) and (max-width: 1199px) {
+   .col-md-6, .col-md-12 {
+    float: left;
+    
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+	<h1 >OUR MENU</h1>
+	<div class="row" >
+  <div class="col-lg-4 col-md-6 ">
+  	<p class="contentname name1">chicken</p>
+  	<p class="p">All human activities depend on using information. Information comes in variety of forms including human speech, written, typed and printed documents and computer data. They are so many technologies to processes, to store in memory and to transport the information. </p></div>
+   <div class="col-lg-4 col-md-6 ">
+  	<p class="contentname name3">beef</p>
+  	<p class="p">All human activities depend on using information. Information comes in variety of forms including human speech, written, typed and printed documents and computer data. They are so many technologies to processes, to store in memory and to transport the information. </p></div>
+  	 <div class="col-lg-4 col-md-12 ">
+  	<p class="contentname name2">pork</p>
+  	<p class="p">All human activities depend on using information. Information comes in variety of forms including human speech, written, typed and printed documents and computer data. They are so many technologies to processes, to store in memory and to transport the information. </p></div>
+  </div>
+ </body>
+</html>
